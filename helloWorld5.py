@@ -17,7 +17,7 @@ class MainHandler(tornado.web.RequestHandler):
 
 class ErrorHandler(tornado.web.RequestHandler):
     def get(self):
-        self.render("500.html")
+        self.render("500.html", msg="后台有错，请重试！")    #模版参数传递
 
 def make_app():
     return tornado.web.Application(
