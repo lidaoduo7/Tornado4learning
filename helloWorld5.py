@@ -22,7 +22,7 @@ class ErrorHandler(tornado.web.RequestHandler):
 def make_app():
     return tornado.web.Application(
         [
-        (r"/", MainHandler),                   # 路由
+        (r"/", MainHandler),                   #  路由
         (r"/500", ErrorHandler),               #  浏览器输入   http://localhost:8888/500
         ],
         template_path = os.path.join(
