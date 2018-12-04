@@ -28,6 +28,7 @@ REST
 表现层，资源的表现形式
 状态转化，get、post、put、delete
 
+接口实现方式，自顶向下，自下向顶
 
 []
 幂等性：指的是无论一次还是多次操作具有一样的副作用。
@@ -37,7 +38,7 @@ REST
 
 [Tornado进阶]
 用Tornado实现异步网络服务
-Tornado使用Peewee、Motor等连接MySQL、Mongod数据库
+Tornado使用Peewee、Motor等连接MySQL、Mongod数据库(业务端）
 引入表单验证、用户验证等模块
 
 
